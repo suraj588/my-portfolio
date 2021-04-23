@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Project.module.css"
 import TechUsed from "./TechUsed";
+import {ImGithub} from "react-icons/im";
+
 const Project = ({project}) => {
     return (
         <div className={styles.cover}>
@@ -14,7 +16,7 @@ const Project = ({project}) => {
                 <div>
                     <div>
                         <a href={project.github_link}>
-                            <img src="Github.png" alt="github"/>
+                        <ImGithub style={{color:"black",fontSize:"60px"}}/>
                         </a>
                     </div>
                     <div>

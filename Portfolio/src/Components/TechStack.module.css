@@ -1,0 +1,30 @@
+.heading{
+    color: #3c5a46;
+    width: 80%;
+    font-size: 40px;
+    font-weight: 400;
+    border-bottom: 2px solid #f6f6f6;
+    margin: 100px auto 0px;
+}
+.cover{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 100px 0px 200px;
+    justify-content: center;
+    gap: 50px;
+}
+.cover>img{
+    /* width: 20%; */
+    width: 300px;
+    height: 40%;
+    transition-property: all;
+    transition-duration: 3s;
+}
+.cover>img:hover{
+    width:350px;
+    height: 350px;
+    box-shadow: 10px 10px 10px 5px #62656d,-10px -10px 10px 5px #62656d;
+    cursor: pointer;
+}

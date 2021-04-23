@@ -1,5 +1,7 @@
 import React from "react";
+import Footer from "../Components/Footer";
 import Summary from "../Components/Summary";
+import TechStack from "../Components/TechStack";
 import TopNav from "../Components/TopNav";
 
 const About = () => {
@@ -7,6 +9,8 @@ const About = () => {
         <>
             <TopNav/>
             <Summary/>
+            <TechStack/>
+            <Footer/>
         </>
     )
 }

@@ -7,9 +7,9 @@
             "tech_stack":["React","Redux","JavaScript","Material UI","CSS"],
             "img_url":"NY.png",
             "alt":"NY",
-            "github_link":"",
-            "medium_link":"",
-            "live":""
+            "github_link":"https://github.com/lokeshnimje/Pentane",
+            "medium_link":"https://surajbhansingh588.medium.com/cloning-the-new-york-times-ba2f87b06ca8",
+            "live":"https://lokeshnimje.github.io/Pentane"
         },
         {
             "name":"Cloning of Decathlon.io",
@@ -17,29 +17,19 @@
             "tech_stack":["HTML","CSS","JavaScript"],
             "img_url":"Decathlon.png",
             "alt":"NY",
-            "github_link":"",
-            "medium_link":"",
-            "live":""
+            "github_link":"https://github.com/suraj588/Decathlon-clone",
+            "medium_link":"https://surajbhansingh588.medium.com/cloning-of-decathlon-in-e1a28eb4067b",
+            "live":"https://suraj588.github.io/Decathlon-clone"
         },
         {
             "name":"Cloning of Mailtrap.io",
-            "desc":"A website where users can view the sports products and add to cart and place orders.",
+            "desc":"A fake SMTP server to test, view and share emails sent from the development and staging environments.",
             "tech_stack":["HTML","CSS"],
             "img_url":"Mailtrap.png",
             "alt":"NY",
-            "github_link":"",
-            "medium_link":"",
-            "live":""
-        },
-        {
-            "name":"Todo Application",
-            "desc":"A short application where a user can add, delete, update and read their added tasks.",
-            "tech_stack":["HTML","CSS","Javascript"],
-            "img_url":"",
-            "alt":"NY",
-            "github_link":"",
-            "medium_link":"",
-            "live":""
+            "github_link":"https://github.com/suraj588/Titans-Arsenic",
+            "medium_link":"https://surajbhansingh588.medium.com/cloning-of-mailtrap-io-f5a9f1031bb2",
+            "live":"https://suraj588.github.io/Titans-Arsenic/"
         }
     ],
     "headings":[
