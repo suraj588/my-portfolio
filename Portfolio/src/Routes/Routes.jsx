@@ -9,6 +9,9 @@ import Resume from "../Pages/Resume"
 const Routes = () => {
     return(
         <Switch>
+            <Route exact path="/my-portfolio">
+                <HomePage/>
+            </Route>
             <Route exact path="/">
                 <HomePage/>
             </Route>
