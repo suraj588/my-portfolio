@@ -1,0 +1,26 @@
+.linkCover{
+    width: fit-content;
+    height: fit-content;
+    margin:0px auto 150px;
+}
+.btn{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 35px;
+    font-size: 40px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.btn>img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}

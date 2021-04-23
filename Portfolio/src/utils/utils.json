@@ -1,0 +1,59 @@
+{
+    "projects":[
+        {
+            "name":"Cloning of The New York Times",
+            "desc":"A website where users can view the latest news and share on social media. Admin can post news which appear on the latest section.",
+            "short_desc":"A website where users can view the latest news and share on social media",
+            "tech_stack":["React","Redux","JavaScript","Material UI","CSS"],
+            "img_url":"NY.png",
+            "alt":"NY",
+            "github_link":"",
+            "medium_link":"",
+            "live":""
+        },
+        {
+            "name":"Cloning of Decathlon.io",
+            "desc":"A website where users can view the sports products and add to cart and place orders.",
+            "tech_stack":["HTML","CSS","JavaScript"],
+            "img_url":"Decathlon.png",
+            "alt":"NY",
+            "github_link":"",
+            "medium_link":"",
+            "live":""
+        },
+        {
+            "name":"Cloning of Mailtrap.io",
+            "desc":"A website where users can view the sports products and add to cart and place orders.",
+            "tech_stack":["HTML","CSS"],
+            "img_url":"Mailtrap.png",
+            "alt":"NY",
+            "github_link":"",
+            "medium_link":"",
+            "live":""
+        },
+        {
+            "name":"Todo Application",
+            "desc":"A short application where a user can add, delete, update and read their added tasks.",
+            "tech_stack":["HTML","CSS","Javascript"],
+            "img_url":"",
+            "alt":"NY",
+            "github_link":"",
+            "medium_link":"",
+            "live":""
+        }
+    ],
+    "headings":[
+        {
+            "name":"Projects",
+            "desc":"Some of my works which I have done during my learning journey."
+        },
+        {
+            "name":"Resume",
+            "desc":"My complete bio-data in brief along with my skills."
+        },
+        {
+            "name":"Contact Me",
+            "desc":"Don't feel shy to contact me. Feel free to ping me for new projects or clarifications."
+        }
+    ]
+}
