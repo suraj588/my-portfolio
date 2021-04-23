@@ -1,7 +1,13 @@
 import React from "react";
+import { useHistory } from "react-router";
 import styles from "./SampleStack.module.css";
 
 const SampleStack = () => {
+    const history = useHistory();
+
+    const aboutPage = () => {
+        history.push("/about");
+    }
     return (
         <div className={styles.outerCover}>
             <div className={styles.heading}>My Services</div>
@@ -20,7 +26,7 @@ const SampleStack = () => {
                 </div>
             </div>
             <div className={styles.btnCover}>
-                <button className={styles.services}>View All Stack</button>
+                <button className={styles.services} onClick={aboutPage}>View All Stack</button>
             </div>
             
         </div>
