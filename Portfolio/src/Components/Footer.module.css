@@ -23,7 +23,7 @@
     font-size: 30px;
     margin-bottom: 30px;
 }
-.cover>:nth-child(1)>:nth-child(3){
+.cover>:nth-child(1)>:nth-child(3)>button{
     padding: 10px 10px;
     border: none;
     outline: none;
@@ -36,15 +36,14 @@
     opacity: 0.8;
     margin-bottom: 30px;   
 }
-.cover>:nth-child(1)>:nth-child(3):hover{
+.cover>:nth-child(1)>:nth-child(3)>button:hover{
     cursor: pointer;
     font-weight: 700;
     opacity: 1;
 }
 .cover>:nth-child(2){
     width: 30%;
-    min-height: 300px;
-    height: 300px;
+    height: fit-content;
     position: absolute;
     top: 40%;
     right: 5%;
@@ -73,4 +72,26 @@ a{
     color: #686b6f;
     font-size: 18px;
     margin-left: 20px;
+}
+
+@media screen and (max-width:800px){
+    .cover>:nth-child(1){
+        top: 20%;
+    }
+    .cover>:nth-child(2){
+        left: 10%;
+        top: 70%;
+    }
+}
+
+@media screen and (max-width:470px){
+    .cover>:nth-child(1){
+        min-width: 80%;
+    }
+    .cover>:nth-child(1)>:nth-child(1){
+        font-size: 30px;
+    }
+    .cover>:nth-child(1)>:nth-child(2){
+        font-size: 20px;
+    }
 }
