@@ -10,12 +10,12 @@ const Summary = () => {
         <>
             <div className={styles.summaryCover}>
                 <div className={styles.leftPanel}>
-                    <div>Hey, I'm Suraj.</div>
+                    <div>Hey, I'm Suraj 🙋‍♂️</div>
                     <div>Full Stack Web Developer, passionate about creating web-based products and solving problems related to it. Highly enthusiast to learn and work with latest technologies. </div>
                     <button onClick={toProjects}>My Projects</button>
                 </div>
                 <div className={styles.rightPanel}>
-                    <img src="suraj.jpg" alt="profile_pic"/>
+                    <img src="../../suraj.jpg" alt="profile_pic"/>
                 </div>
                 
             </div>

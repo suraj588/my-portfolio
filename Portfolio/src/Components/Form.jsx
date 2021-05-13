@@ -8,20 +8,21 @@ const Form = () => {
     // }
     return (
         <>
-            <div className={styles.cover}>
+            <div id="contact" className={styles.cover}>
                 <div className={styles.imageCover}>
-                    <img src="Collab.webp" alt="Collab"/>
+                    <img src="../../Collab.webp" alt="Collab"/>
                 </div>
                 <form className={styles.form} action="mailto:surajbhansingh588@gmail.com"
                 method="post"
-                enctype="text/plain">
-                    <input type="text" name="name" placeholder="Name..."/>
-                    <input type="text" name="email" placeholder="Email..."/>
-                    <input type="text" name="msg" placeholder="Your message..."/><br/>
+                encType="text/plain">
                     <div>
-                        <button type="submit">Send message</button>
+                        <input type="text" name="name" placeholder="Name..."/>
+                        <input type="text" name="email" placeholder="Email..."/>
+                        <input type="text" name="msg" placeholder="Your message..."/><br/>
+                        <div>
+                            <button type="submit">Send message</button>
+                        </div>
                     </div>
-                    
                 </form>
             </div>
         </>

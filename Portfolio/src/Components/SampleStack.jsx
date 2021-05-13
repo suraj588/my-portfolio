@@ -1,19 +1,14 @@
 import React from "react";
-import { useHistory } from "react-router";
 import styles from "./SampleStack.module.css";
 
 const SampleStack = () => {
-    const history = useHistory();
 
-    const aboutPage = () => {
-        history.push("/about");
-    }
     return (
         <div className={styles.outerCover}>
-            <div className={styles.heading}>My Services</div>
+            <div className={styles.heading}>My Services 👨🏻‍💻</div>
             <div className={styles.contentCover}>
                 <div>
-                    <img src="Front-end.png" alt="FE"/>
+                    <img src="Front-end.jfif" alt="FE"/>
                     <div>Front-End Development</div>
                     <div>User Focused</div>
                     <div>Responsive and clean websites with prime focus on the user's expectations.</div>
@@ -26,9 +21,11 @@ const SampleStack = () => {
                 </div>
             </div>
             <div className={styles.btnCover}>
-                <button className={styles.services} onClick={aboutPage}>View All Stack</button>
+                <a href="/about/#tech_stack">
+                    <button className={styles.services} >View All Stack</button>
+                </a>
             </div>
-            
+
         </div>
     )
 }

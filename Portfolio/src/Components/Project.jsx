@@ -16,7 +16,7 @@ const Project = ({project}) => {
                 <div>
                     <div>
                         <a href={project.github_link}>
-                        <ImGithub style={{color:"black",fontSize:"60px"}}/>
+                        <ImGithub style={{color:"black",fontSize:"52px"}}/>
                         </a>
                     </div>
                     <div>

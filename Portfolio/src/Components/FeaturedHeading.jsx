@@ -4,7 +4,7 @@ import styles from "./FeaturedHeading.module.css";
 const FeaturedHeading = () => {
     return (
         <>
-            <div className={styles.block}>FEATURED PROJECT</div>
+            <div className={styles.block}>FEATURED PROJECT  🤹🏻‍♂</div>
         </>
     )
 }

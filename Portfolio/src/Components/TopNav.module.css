@@ -51,7 +51,7 @@
     .listCover{
         display: none;
         width: 100%;
-        height: 650px;
+        height: 750px;
         z-index: 1;
         background-color: #191a1d;
         top: 0%;
@@ -73,5 +73,14 @@
         position: absolute;
         right: 10px;
         top: 50px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .name>a{
+        font-size: 22px;
+    }
+    .menuIcon{
+        top: 30%;
     }
 }
