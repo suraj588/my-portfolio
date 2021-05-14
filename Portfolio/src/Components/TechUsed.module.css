@@ -3,7 +3,7 @@
     height: fit-content;
     display:flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 14px;
     margin-bottom: 30px;
 }
 .cover>div{
@@ -14,4 +14,5 @@
     text-align: center;
     background-color: #db536b;
     color: white;
+    margin-bottom: 10px;
 }
