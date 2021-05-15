@@ -22,11 +22,11 @@ const Footer = () => {
                     </div>
                     <div>
                     <FaLinkedin style={{color:"white",fontSize:"32px"}}/>
-                        <a href="https://www.linkedin.com/in/suraj-bhan-singh">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/suraj-bhan-singh" target="_blank">LinkedIn</a>
                     </div>
                     <div>
                         <FaGithubSquare style={{color:"white",fontSize:"32px"}}/>
-                        <a href="https://github.com/suraj588">Github</a>
+                        <a href="https://github.com/suraj588" target="_blank">Github</a>
                     </div>
                     <div>
                         <img src="../../phone.jpg" alt="phone"/>
