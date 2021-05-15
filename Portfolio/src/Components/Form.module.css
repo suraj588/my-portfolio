@@ -32,7 +32,7 @@
 }
 .form>div>div{
     width: fit-content;
-    margin: auto;
+    margin: 0px auto 30px;
 }
 .form>div>div>button{
     color: white;
@@ -46,9 +46,23 @@
     border: none;
     font-size: 24px;
 }
-.form>div>button:hover{
+.form>div>div>button:hover{
     opacity: 1;
     cursor: pointer;
+}
+.errMsg{
+    color: red;
+}
+.successMsg {
+    color: green;
+}
+.posting{
+    color: white;
+}
+.msg{
+    font-weight: 700;
+    width: 70%;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 700px){
