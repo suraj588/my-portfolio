@@ -7,9 +7,9 @@
             "tech_stack":["React","Redux","JavaScript","Material UI","CSS"],
             "img_url":"NY.png",
             "alt":"NY",
-            "github_link":"https://github.com/lokeshnimje/Pentane",
+            "github_link":"https://github.com/lokeshnimje/NYtimes.com-Clone",
             "medium_link":"https://surajbhansingh588.medium.com/cloning-the-new-york-times-ba2f87b06ca8",
-            "live":"https://lokeshnimje.github.io/Pentane"
+            "live":"https://nytimes-kappa.vercel.app/"
         },
         {
             "name":"Cloning of Decathlon.io",
